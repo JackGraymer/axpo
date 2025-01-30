@@ -6,6 +6,7 @@ import streamlit as st
 
 # Title
 st.title('AXPO - Petroleum / Oil Desk Dashboard')
+# Sidebar title
 st.sidebar.title('Dashboard Control Panel')
 
 ### Reading excel file and preparing data
