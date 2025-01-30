@@ -12,50 +12,11 @@ This repository contains a Streamlit-based dashboard for visualizing petroleum/o
 - **Iris Dataset**: Display visualizations of the Iris dataset from Plotly Express.
 
 
-## File Structure
-
-```
-.
-├── __pycache__/
-├── .devcontainer/
-│   └── devcontainer.json
-├── dashboard_dash.py
-├── dashboard_streamlit.py
-├── data/
-│   ├── AAPL.csv
-│   ├── brent-daily.csv
-│   ├── IMFInvestmentandCapitalStockDataset2021.xlsx
-│   ├── MicrosoftStock.csv
-│   ├── Oil and Gas 1932-2014.csv
-│   ├── RBRTEd.xls
-│   ├── RWTCd.xls
-│   └── Tesla.csv
-├── plotly.ipynb
-├── requirements.txt
-└── README.md
-```
-
 ## Data Sources
 
-- **Brent and WTI Prices**: Excel files `RBRTEd.xls` and `RWTCd.xls` in the 
-
-data
-
- directory.
-- **Stock Prices**: CSV files `AAPL.csv`, `Tesla.csv`, and 
-
-MicrosoftStock.csv
-
- in the 
-
-data
-
- directory.
-- **Oil and Gas Data**: CSV file `Oil and Gas 1932-2014.csv` in the 
-
-data
-
- directory.
+- **Brent and WTI Prices**: Excel files `RBRTEd.xls` and `RWTCd.xls` in the data directory.
+- **Stock Prices**: CSV files `AAPL.csv`, `Tesla.csv`, and MicrosoftStock.csv in the data directory.
+- **Oil and Gas Data**: CSV file `Oil and Gas 1932-2014.csv` in the data directory.
 
 ## Usage
 
@@ -81,23 +42,11 @@ data
 1. View the donut chart of the number of species.
 2. View the scatter plots of petal width vs. sepal length and sepal width vs. sepal length.
 
-## Development
+## Requirements
 
-This repository includes a 
-
-.devcontainer
-
- configuration for developing in a containerized environment. The container includes all necessary dependencies and extensions for working with the code.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgements
+Available in the `requirements.txt` file.
 
 - [Streamlit](https://streamlit.io/)
 - [Plotly](https://plotly.com/)
 - [Pandas](https://pandas.pydata.org/)
 - [NumPy](https://numpy.org/)
-
-Feel free to contribute to this project by submitting issues or pull requests. For any questions, please contact [yourname@example.com](mailto:yourname@example.com).
