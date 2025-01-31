@@ -234,13 +234,3 @@ with container2:
 
     with col4:
         st.plotly_chart(sepal)
-
-
-# Sample DataFrame
-data = {
-    'Column1': [f'Row {i}' for i in range(1, 51)],
-    'Column2': [i * 10 for i in range(1, 51)],
-    'Column3': [i * 100 for i in range(1, 51)]
-}
-df = pd.DataFrame(data)
-

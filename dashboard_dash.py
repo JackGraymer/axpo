@@ -11,7 +11,7 @@ app = Dash(__name__, suppress_callback_exceptions=True)
 # Load the data
 data = pd.read_csv('data/Oil and Gas 1932-2014.csv')
 
-# Title
+# App layout
 app.layout = html.Div([
     html.H1('AXPO - Petroleum / Oil Desk Dashboard', style={'textAlign': 'center'}),
     html.Div([
@@ -83,7 +83,7 @@ app.layout = html.Div([
             dcc.Graph(id='iris-sepal', figure=px.scatter(px.data.iris(), x='sepal_width', y='sepal_length', color='species'))
         ], style={'width': '32%', 'display': 'inline-block'}),
     ], style={'display': 'flex', 'justify-content': 'space-between'})
-], style={'padding': '20px', 'font-family': 'sans-serif'})
+], style={'padding': '20px', 'font-family': 'sans-serif', "maxHeight":"100%","width":"auto"})
 
 @app.callback(
     Output('brent-wti-graph', 'figure'),
